@@ -172,7 +172,7 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   tweet.setAttribute("href", "https://twitter.com/share");
   tweet.textContent = "Tweet";
 
-  var text = "I scored " + this.score + " points in Pasta 2048! Play it too at http://pezzin.github.io/2048"
+  var text = "I scored " + this.score + " points in Pasta 2048! Play it too at "
   tweet.setAttribute("data-text", text);
 
   return tweet;
